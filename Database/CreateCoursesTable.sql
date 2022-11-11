@@ -2,10 +2,10 @@ USE DiscGolf
 GO
 
 CREATE TABLE Courses(
-	courseID int,
-	courseName varchar(100),
-	courseLayout varchar(100),
-	coursePar int,
+	courseID int NOT NULL,
+	courseName varchar(100) NOT NULL,
+	courseLayout varchar(100) NOT NULL,
+	coursePar int NOT NULL,
 	hole1 int,
 	hole2 int,
 	hole3 int,
