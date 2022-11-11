@@ -9,3 +9,7 @@ Like any other sport, lots of analytics can be gathered to determine where a pla
 # Outline
 There are a couple different layers to this project that I will be exploring and they are broken down below:
   - Database: using Microsoft SQL Server, I will create and mantain a small database of all of my rounds and the different courses I have played. This will allow me to keep all rounds in one place and allow me to query for specific rounds, holes, etc. This database will be normalized to 3NF and will have its own folder.
+  - Python: data will be queryed from the database and will be analyzed in a Jupyter Notebook. I will start with simple explatory data analysis techniques but as I learn more data science models, I will use this data to see if those new models will be helpful in gleaming any new information and why/why not they were helpful.
+  - Power BI: I will also have a Power BI dashboard that will have a lot of the same visuals from the Jupyter Notebook but also one simple area where I can see high level information at a glance; scores by course, scores by par, so on and so forth.
+
+The idea of this project is not only to have a place where I can analyze my disc golf game but also showcase the different facets of data science and the skills required to succeed in that field.
