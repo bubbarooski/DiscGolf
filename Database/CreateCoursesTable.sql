@@ -2,6 +2,7 @@ USE DiscGolf
 GO
 
 CREATE TABLE Courses(
+	courseID int,
 	courseName varchar(100),
 	courseLayout varchar(100),
 	coursePar int,
@@ -42,3 +43,5 @@ CREATE TABLE Courses(
 	holeE int,
 	holeF int
 )
+
+--DROP TABLE DiscGolf.dbo.Courses
