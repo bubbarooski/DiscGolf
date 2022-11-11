@@ -12,7 +12,7 @@ VALUES (
 '1',
 --courseName (not null)
 'Fore Palms',
---courseLayout
+--courseLayout (not null)
 'Main White to Yellow',
 --coursePar (not null)
 '76',
